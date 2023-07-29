@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="imagens/Diego's Tech.png"
+      type="image/png"
+    />
+    <title>Diego's Tech</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav--bar">
+        <img class="img-logo" src="imagens/Diego's Tech.png" alt="" />
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a class="nav_item" href="#section-1">Features</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav_item" href="#section-2">About</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav_item" href="#section-3">Contact Us</a>
+          </li>
+
+          <li class="nav-link nav-account">
+            <a class="nav_item btn-account" href="#">Open Account</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- <section class="title">
+        <div class="grid">Welcome to Diego's Tech</div>
+        <div class="grid-img">
+          <img class="img-title" src="imagens/carousel1.jpg" alt="" />
+        </div>
+        <div class="h4">This is my site about tech</div>
+      </section> -->
+      <div class="title">
+        <h1>Welcome to Diego's Tech</h1>
+        <h4>
+          This is my site about Tech <br />
+          <p>
+            <a class="link-header" href="#section-1">Learn more &DownArrow;</a>
+          </p>
+        </h4>
+        <img class="img-title" src="imagens/carousel1.jpg" alt="" />
+      </div>
+
+      <div class="openAccount hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="header-account">Open your account here</h1>
+        <form value="" class="form">
+          <label for="nome">Nome</label>
+          <input type="text" required />
+          <label for="email">Email</label>
+          <input type="email" required />
+          <label for="senha">Senha</label>
+          <input type="number" required />
+          <label for="senha">Repita a senha</label>
+          <input type="number" required />
+          <input type="submit" value="submit" class="submit" />
+        </form>
+      </div>
+      <div class="overlay hidden"></div>
+    </header>
+
+    <section class="section" id="section-1">
+      <h4 class="feature-h4">features</h4>
+      <h1 class="feature-title">Everything you need to know about tech</h1>
+      <div class="first-grid">
+        <img src="imagens/card2.jpg" class="img-section" alt="" />
+        <h4>CPU</h4>
+        <p>
+          A central processing unit —also called a central processor or main
+          processor—is the most important processor in a given computer. Its
+          electronic circuitry executes instructions of a computer program, such
+          as arithmetic, logic, controlling, and input/output operations.
+        </p>
+      </div>
+      <div class="second-grid">
+        <img src="imagens/card3.jpg" class="img-section" alt="" />
+        <h4>RAM</h4>
+        <p>
+          RAM is a common computing acronym that stands for random-access
+          memory. Sometimes it's called PC memory or just memory. In essence,
+          RAM is your computer or laptop's short-term memory. It's where the
+          data is stored that your computer processor needs to run your
+          applications and open your files.
+        </p>
+      </div>
+      <div class="third-grid">
+        <img src="imagens/card6.jpg" class="img-section" alt="" />
+        <h4>HARD DISK</h4>
+        <p>
+          A hard disk drive, hard disk, hard drive, or fixed disk, is an
+          electro-mechanical data storage device that stores and retrieves
+          digital data using magnetic storage with one or more rigid rapidly
+          rotating platters coated with magnetic material.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section-2">
+      <h4 class="feature-h4">about us</h4>
+      <h1 class="feature-title">
+        We are here to help you understand technology
+      </h1>
+      <div class="forth-grid">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+          inventore officia incidunt? Esse magnam velit repellat perferendis
+          quam vel, exercitationem aperiam cumque nobis earum praesentium natus
+          libero officia, numquam eveniet? Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Itaque minus, eligendi molestias cumque
+          voluptatem debitis assumenda sint, illo, suscipit est omnis recusandae
+          excepturi tenetur ad autem quo incidunt obcaecati commodi! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Quis incidunt vel
+          tempore, officiis officia tempora quam temporibus expedita velit vitae
+          sed numquam quaerat repudiandae vero facere architecto, earum,
+          blanditiis laboriosam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+          inventore officia incidunt? Esse magnam velit repellat perferendis
+          quam vel, exercitationem aperiam cumque nobis earum praesentium natus
+          libero officia, numquam eveniet? Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Itaque minus, eligendi molestias cumque
+          voluptatem debitis assumenda sint, illo, suscipit est omnis recusandae
+          excepturi tenetur ad autem quo incidunt obcaecati commodi! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Quis incidunt vel
+          tempore, officiis officia tempora quam temporibus expedita velit vitae
+          sed numquam quaerat repudiandae vero facere architecto, earum,
+          blanditiis laboriosam.
+        </p>
+        <!-- <img class="img-section-3" src="imagens/carousel2.png" alt="" /> -->
+      </div>
+    </section>
+
+    <section class="section" id="section-3">
+      <h4 class="feature-h4">Contact us</h4>
+      <h1 class="feature-title">Tell us about your experience in my site</h1>
+      <div class="form-contact-us">
+        <form value="" class="form">
+          <label for="nome">Nome</label>
+          <input type="text" required />
+          <label for="email">Email</label>
+          <input type="email" required />
+          <label for="text-area">Your Feedback</label>
+          <textarea
+            name="text-area"
+            id="text-area"
+            cols="146"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="submit" class="submit-contact" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="section-footer">
+      <div class="fifth-grid">
+        <div class="column-1">
+          <h4>Website</h4>
+          <ul>
+            <li><a href="#section-1">Features</a></li>
+            <li><a href="#section-2">About Us</a></li>
+            <li><a href="#section-3">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="column-1">
+          <h4>Social Media</h4>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/Diego.crvlho/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/DiegoCrvlho" target="_blank"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/diego-carvalho-267a59170/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <img class="img-section-3" src="imagens/Diego's Tech.png" alt="" />
+        </div>
+      </div>
+      <h4 style="text-align: center; margin-top: 80px">
+        @ Copyrigth by Diego Carvalho
+      </h4>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
